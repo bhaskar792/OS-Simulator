@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>OS Simulator</title>
+	<meta name="author" content="" />
+	<meta name="description" content="OS Project index page" />
+	<meta name="keywords"  content="Scheduling,Bankers,OS" />
+	<meta name="Resource-type" content="Document" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#4ecdc4', '#a4bfeb', '#c5e0d8', '#91bab3' , '#f0ebd8'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage', '6thpage', '7thpage' , '8thpage'],
+				menu: '#menu',
+				easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
+			});
+		});
+	</script>
+</head>
+<body>
+
+<ul id="menu">
+	<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">Process Scheduling</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">Banker's</a></li>
+	<li data-menuanchor="4thpage"><a href="#4thpage">Secondary Storage</a></li>
+	<li data-menuanchor="5thpage"><a href="#5thpage">Process Sync</a></li>
+	<li data-menuanchor="6thpage"><a href="#6thpage">Memory</a></li>
+	<li data-menuanchor="7thpage"><a href="#7thpage">Files</a></li>
+	<li data-menuanchor="8thpage"><a href="#8thpage">Paging</a></li>
+</ul>
+
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<h1>Operating System Simulator</h1>
+		<h4>Project By: (18CO211-220)</h4>
+		<li>Member 1: Atharva Joshi (18CO211)</li>
+		<li>Member 2: Balarammahanti Gautam (18CO212)</li>
+		<li>Member 3: Bhaskar Kataria (18CO213)</li>
+		<li>Member 4: Chetan Kumar GK (18CO214)</li>
+		<li>Member 5: Chinmay Gupta (18CO215)</li>
+		<li>Member 6: Deepak Kumar Ahirawar (18CO216)</li>
+		<li>Member 7: Dhanwin Rao (18CO217)</li>
+		<li>Member 8: Dhruv Makwana (18CO218)</li>
+		<li>Member 9: Gadilinga B (18CO219)</li>
+		<li>Member 10: Hardik L Harti (18CO220)</li>
+	</div>
+	<div class="section" id="section1">
+		<div class="intro">
+			<div class="row">
+				<div class="column1">
+					<h1><a href="../Process Scheduling/index.html">Process Scheduling</a></h1>
+				</div>
+				<div class="column1">
+					 <ul id="scheduling-style">
+  					   <li><a href="../Process Scheduling/index.html">Shortest Job First</a></li>
+					   <li><a href="../Process Scheduling/index.html">First Come First Served</a></li>
+					   <li><a href="../Process Scheduling/index.html">Multilevel Queue</a></li>
+					   <li><a href="../Process Scheduling/index.html">Round Robin</a></li>
+					   <li><a href="../Process Scheduling/index.html">Priority Scheduling</a></li>
+					   <li><a href="../Process Scheduling/index.html">Shortest Remaining Time First</a></li>
+					 </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section2">
+		<div class="intro">
+			<h1><a href="../Bankers/index.html">Banker's Algorithm</a></h1>
+			<p>Banker's Algorithm is a resource allocation and deadlock avoidance algorithm that tests for safety by simulating the allocation of predetermined maximum possible amounts of all resources, and then makes an "safe-state" check to test for possible deadlock conditions for all other pending activities, before deciding whether allocation should be allowed to continue.</p>
+		</div>
+	</div>
+	<div class="section" id="section3">
+		<div class="intro">
+			<div class="row">
+				<div class="column1">
+					<h1>Secondary Storage</h1>
+				</div>
+				<div class="column1">
+					 <ul id="d-scheduling-style">
+  					   <li><a href="../Disk/disk.html">1-Disk Scheduling</a></li>
+					   <li><a href="../Disk/lba.html">2-LBA</a></li>
+					 </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section4">
+		<div class="intro">
+			<div class="row">
+				<div class="column2">
+					<h1>Process Synchronization</h1>
+				</div>
+				<div class="column2">
+					 <ul id="synchronization-style">
+					   <li><a href="../Process synchronization/dining.html">Dining Philosophers</a></li>
+					   <li><a href="../Process synchronization/producer_consumer.html">Producer Consumer</a></li>
+					   <li><a href="../Process synchronization/readerWriter.html">Reader Writer</a></li>
+					   <li><a href="../Process synchronization/sleepingBarber.html">Sleeping Barber</a></li>
+					 </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section5">
+		<div class="intro">
+			<div class="row">
+				<div class="column1">
+					<h1>Memory Management</h1>
+				</div>
+				<div class="column1">
+					 <ul id="d-scheduling-style">
+  					   <li><a href="../MFT/index.html">MFT</a></li>
+					   <li><a href="../MVT/index.html">MVT</a></li>
+					 </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section" id="section6">
+		<div class="intro">
+			<h1><a href="../File_System/index.html">File Management</h1>
+			<p>File system represents data from a logical view point. The different directory structures for file systems covered here are single-level, two-level and tree-structured directory.</p>
+		</div>
+	</div>
+	
+	<div class="section" id="section7">
+		<div class="intro">
+			<h1><a href="../PageReplacement/pgtable.html">Paging and Page Table</h1>
+			<p>Paging is a memory management scheme that eliminates the need for contiguous allocation of physical memory.</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
