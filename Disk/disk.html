@@ -15,12 +15,11 @@
             <a class="navbar-brand" href="../Index/index.html#firstPage">Operating System Simulator</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
                 <span class="navbar-toggler-icon"></span>
-              </button>         
-
-                <div class="collapse navbar-collapse" id="navbarColor01">
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Process Scheduling<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../Process%20Scheduling/index.html">Process Scheduling<span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Disk Scheduling</a>
@@ -32,16 +31,13 @@
                     <a class="nav-link" href="../Index/index.html#5thpage">Process Synchronization</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Semaphores</a>
+                    <a class="nav-link" href="../PageReplacement/index.html">Page Replacement</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">File Management</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="../Index/index.html#7thpage">File Management</a>
                   </li>
                 </ul>
-            </div>
+              </div>
         </nav>
             <br>
             <div class="container">
@@ -76,7 +72,7 @@
                     }
                 }
                 </script>
-                <form> 
+                <form>
                     <fieldset>
                         <div class="row">
                             <div class="form-group" style="margin-left:50px; float:left;">
@@ -115,15 +111,14 @@
                         </div>
                     </fieldset>
                 </form>
-                <button type="submit" id="plot-button" class="btn btn-primary" style="margin-left: 36px" onclick="getBitStreamAndPlot(event, document.getElementById('bitstream-input').value, document.getElementById('initial-input').value, document.getElementById('final-input').value, document.getElementById('algorithm').value,document.getElementById('direction').value)">Plot</button>
-                    
-                
-			</div>        
+                <button type="submit" id="plot-button" class="btn btn-success" style="margin-left: 36px" onclick="getBitStreamAndPlot(event, document.getElementById('bitstream-input').value, document.getElementById('initial-input').value, document.getElementById('final-input').value, document.getElementById('algorithm').value,document.getElementById('direction').value)">Plot</button>
+
+			</div>
 			<br>
 			<br>
             <div class="container">
 				      <div id="alg_name"></div>
-                <div id="alg_seek"></div>   
+                <div id="alg_seek"></div>
 			      </div>
 			      <div class="container">
 			       <div id="graph_area"></div>
