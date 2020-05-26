@@ -7,9 +7,9 @@
   --red: #d9534f;
   --orange: #f0ad4e;
   --yellow: #f0ad4e;
-  --green: #5cb85c;
-  --teal: #20c997;
-  --cyan: #5bc0de;
+  --green: 	#FFFF00;
+  --teal: #FAFAD2;
+  --cyan: #FFFFE0;
   --white: #fff;
   --gray: #868e96;
   --gray-dark: #343a40;
@@ -6122,7 +6122,7 @@ button.close {
 }
 
 .bg-primary {
-  background-color: #DF691A !important;
+  background-color: rgb(109, 255, 167) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6172,13 +6172,13 @@ button.bg-warning:focus {
 }
 
 .bg-danger {
-  background-color: #d9534f !important;
+  background-color: #0a949b !important;
 }
 
 a.bg-danger:hover, a.bg-danger:focus,
 button.bg-danger:hover,
 button.bg-danger:focus {
-  background-color: #c9302c !important;
+  background-color: #80eeb5 !important;
 }
 
 .bg-light {
