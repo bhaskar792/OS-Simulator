@@ -36,7 +36,7 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 100%;
     margin:0;
     padding:0;
-    color:#444;
+    color:rgb(255, 255, 255);
 }
 q:before,q:after {
     content:'';
@@ -118,7 +118,7 @@ a:hover
 }
 
 #scheduling-style li a {
-	background-color: #39968f;
+	background-color: #90aebb;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	text-align: center;
     display: inline-block;
@@ -129,7 +129,7 @@ a:hover
             border-radius: 10px;
 }
 #scheduling-style li.active {
-    background:#666;
+    background:#b5e9ff;
 	background: rgba(0,0,0, 0.5);
 	color: #000;
 }
@@ -143,7 +143,7 @@ a:hover
 #d-scheduling-style li a {
 	padding-top: 15px;
 	padding-bottom: 15px;
-	background-color: #8cabbe;
+	background-color: #90aebb;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	text-align: center;
     display: inline-block;
@@ -155,7 +155,7 @@ a:hover
 }
 
 #d-scheduling-style li a:hover {
-	background-color: #738c9c;
+	background-color: #b5e9ff;
 }
 
 #synchronization-style ul {
@@ -165,7 +165,7 @@ a:hover
 }
 
 #synchronization-style li a {
-	background-color: #a4a8d1;
+	background-color: #90aebb;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	text-align: center;
     display: inline-block;
@@ -177,22 +177,22 @@ a:hover
 }
 
 #synchronization-style li a:hover {
-	background-color: #878aac;
+	background-color:  #b5e9ff;
 }
 
 #menu li {
 	display:inline-block;
 	margin: 10px;
-	color: #000;
-	background:#fff;
-	background: rgba(255,255,255, 0.5);
+	color: #9099A2;
+	background:#D5D5D5;
+	background: rgb(196, 183, 190);
 	-webkit-border-radius: 10px;
             border-radius: 10px;
 }
 #menu li.active{
-	background:#666;
+	background: #6D7993;
 	background: rgba(0,0,0, 0.5);
-	color: #fff;
+	color: rgb(125, 100, 100);
 }
 #menu li a{
 	text-decoration:none;
@@ -202,7 +202,7 @@ a:hover
 	color: #000;
 }
 #menu li:hover{
-	background: rgba(255,255,255, 0.8);
+	background: rgb(165, 176, 186);
 }
 #menu li a,
 #menu li.active a{
@@ -210,7 +210,7 @@ a:hover
 	display:block;
 }
 #menu li.active a{
-	color: #fff;
+	color: rgb(244, 255, 170);
 }
 #menu{
 	position:fixed;
