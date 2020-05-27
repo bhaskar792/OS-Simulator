@@ -20,8 +20,8 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['#021423', '#31405d', '#a7b2a5', '#525252', '#1e272e', '#1e272e', '#013d50' , '#02202b'],
-				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage', '6thpage', '7thpage' , '8thpage'],
+				sectionsColor: ['#d3d3d3', '#d3d3d3', '#a7b2a5', '#a7b2a5', '#d3d3d3', '#a7b2a5', '#d3d3d2' , '#d3d3d3'],
+				anchors: ['1stPage', '2ndPage', '3rdPage', '4thpage', '5thpage', '6thpage', '7thpage' , '8thpage'],
 				menu: '#menu',
 				easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
 			});
@@ -31,8 +31,8 @@
 <body>
 
 <ul id="menu">
-	<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
-	<li data-menuanchor="secondPage"><a href="#secondPage">Process Scheduling</a></li>
+	<li data-menuanchor="1stPage"><a href="#1stPage">Home</a></li>
+	<li data-menuanchor="2ndPage"><a href="#2ndPage">Process Scheduling</a></li>
 	<li data-menuanchor="3rdPage"><a href="#3rdPage">Banker's</a></li>
 	<li data-menuanchor="4thpage"><a href="#4thpage">Secondary Storage</a></li>
 	<li data-menuanchor="5thpage"><a href="#5thpage">Process Sync</a></li>
@@ -44,29 +44,69 @@
 
 <div id="fullpage">
 	<div class="section " id="section0">
-		<h1>Operating System Simulator</h1>
-		<h1></h1>
-		<h4 style="color: antiquewhite;">Project By: (18CO211-220)</h4>
-		<li style="color: ivory;">Member 1: Atharva Joshi (18CO211)</li>
-		<li  style="color: ivory;">Member 2: Balarammahanti Gautam (18CO212)</li>
-		<li style="color: ivory;">Member 3: Bhaskar Kataria (18CO213)</li>
-		<li  style="color: ivory;">Member 4: Chetan Kumar GK (18CO214)</li>
-		<li  style="color: ivory;">Member 5: Chinmay Gupta (18CO215)</li>
-		<li style="color: ivory;" >Member 6: Deepak Kumar Ahirawar (18CO216)</li>
-		<li style="color: ivory;" >Member 7: Dhanwin Rao (18CO217)</li>
-		<li  style="color: ivory;">Member 8: Dhruv Makwana (18CO218)</li>
-		<li  style="color: ivory;">Member 9: Gadilinga B (18CO219)</li>
-		<li  style="color: ivory;">Member 10: Hardik L Harti (18CO220)</li>
+		<h1 style="color: black; text-shadow: 2px 2px #FF0000;">Operating System Simulator</h1>
+		<br>
+		<br>
+		<h4>Project By: (18CO211-220)</h4>
+		<br>
+		<br>
+		<br>
+		<table align="center">
+			<tr>
+				<td>Member 1 : </td>
+				<td>Atharva Joshi</td>
+				<td>(18CO211)</td>
+			</tr>
+			<tr>
+				<td>Member 2 : </td>
+				<td>Balarammahanti Gautam</td>
+				<td>(18CO212)</td>
+			</tr><tr>
+				<td>Member 3 : </td>
+				<td>Bhaskar Kataria</td>
+				<td>(18CO213)</td>
+			</tr><tr>
+				<td>Member 4 : </td>
+				<td>Chetan Kumar</td>
+				<td>(18CO214)</td>
+			</tr><tr>
+				<td>Member 5 : </td>
+				<td>Chinmay Gupta</td>
+				<td>(18CO215)</td>
+			</tr><tr>
+				<td>Member 6 : </td>
+				<td>Deepak Kumar</td>
+				<td>(18CO216)</td>
+			</tr><tr>
+				<td>Member 7 : </td>
+				<td>Dhanwin Rao</td>
+				<td>(18CO217)</td>
+			</tr><tr>
+				<td>Member 8 : </td>
+				<td>Dhruv Makwana</td>
+				<td>(18CO218)</td>
+			</tr><tr>
+				<td>Member 9 : </td>
+				<td>Gadilinga B</td>
+				<td>(18CO211)</td>
+			</tr><tr>
+				<td>Member 10: </td>
+				<td>Hardik Harti</td>
+				<td>(18CO220)</td>
+			</tr>
+		</table>
 	</div>
+
+
 	<div class="section" id="section1">
 		<div class="intro">
 			<div class="row">
 				<div class="column1">
-					<h1><a href="../Process Scheduling/index.html" style="color: ivory;">Process Scheduling</a></h1>
+					<h1  style="color : #F2F3F4; text-shadow: 2px 2px 4px #000000"><a href="../Process Scheduling/index.html">Process Scheduling</a></h1>
 				</div>
 				<div class="column1">
 					 <ul id="scheduling-style">
-  					   <li><a href="../Process Scheduling/index.html">Shortest Job First</a></li>
+  					 <li><a href="../Process Scheduling/index.html">Shortest Job First</a></li>
 					   <li><a href="../Process Scheduling/index.html">First Come First Served</a></li>
 					   <li><a href="../Process Scheduling/index.html">Multilevel Queue</a></li>
 					   <li><a href="../Process Scheduling/index.html">Round Robin</a></li>
@@ -77,9 +117,12 @@
 			</div>
 		</div>
 	</div>
+
+
+
 	<div class="section" id="section2">
 		<div class="intro">
-			<h1 style="color: ivory;"><a href="../Bankers/index.html" >Banker's Algorithm</a></h1>
+			<h1  style="text-shadow: 2px 2px 4px #000000"><a href="../Bankers/index.html" >Banker's Algorithm</a></h1>
 			<p>Banker's Algorithm is a resource allocation and deadlock avoidance algorithm that tests for safety by simulating the allocation of predetermined maximum possible amounts of all resources, and then makes an "safe-state" check to test for possible deadlock conditions for all other pending activities, before deciding whether allocation should be allowed to continue.</p>
 		</div>
 	</div>
@@ -87,7 +130,7 @@
 		<div class="intro">
 			<div class="row">
 				<div class="column1">
-					<h1 style="color: #cccccc;">Secondary Storage</h1>
+					<h1 style="color: #cccccc; text-shadow: 2px 2px #868432">Secondary Storage</h1>
 				</div>
 				<div class="column1">
 					 <ul id="d-scheduling-style">
@@ -102,7 +145,7 @@
 		<div class="intro">
 			<div class="row">
 				<div class="column2">
-					<h1 style="color: #687279;">Process Synchronization</h1>
+					<h1 style="color: #687279; text-shadow: 2px 2px 4px black">Process Synchronization</h1>
 				</div>
 				<div class="column2">
 					 <ul id="synchronization-style">
@@ -119,7 +162,7 @@
 		<div class="intro">
 			<div class="row">
 				<div class="column1">
-					<h1 style="color: #7899b3;">Memory Management</h1>
+					<h1 style="color: #7899b3; text-shadow: 2px 2px 4px #9A7D0A;">Memory Management</h1>
 				</div>
 				<div class="column1">
 					 <ul id="d-scheduling-style">
@@ -133,14 +176,14 @@
 
 	<div class="section" id="section6">
 		<div class="intro">
-			<h1 style="color: lavender;"><a href="../File_System/index.html">File Management</h1>
+			<h1 style="color: #99A3A4; text-shadow: 2px 2px 4px black"><a href="../File_System/index.html">File Management</h1>
 			<p>File system represents data from a logical view point. The different directory structures for file systems covered here are single-level, two-level and tree-structured directory.</p>
 		</div>
 	</div>
-	
+
 	<div class="section" id="section7">
 		<div class="intro">
-			<h1><a href="../PageReplacement/pgtable.html">Paging and Page Table</h1>
+			<h1 text-shadow: 2px 2px 4px black><a href="../PageReplacement/pgtable.html">Paging and Page Table</h1>
 			<p>Paging is a memory management scheme that eliminates the need for contiguous allocation of physical memory.</p>
 		</div>
 	</div>
