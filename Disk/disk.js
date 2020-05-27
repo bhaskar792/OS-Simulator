@@ -99,7 +99,7 @@ var pre,v1,v2,v3,v4,v5,v6,dir;
                         var data = [trace1];
                         v1=seek;
                         if(pre){Plotly.newPlot('graph_area', data, layout);
-                        document.getElementById("alg_seek").innerHTML = "Seek: "+seek;
+                        document.getElementById("alg_seek").innerHTML = "Total head movement : "+seek;
                         document.getElementById("alg_name").innerHTML = "FCFS";
                         }
                 }
@@ -164,7 +164,7 @@ var pre,v1,v2,v3,v4,v5,v6,dir;
                         var data = [trace1];
                         v2=seek;
                         if(pre){Plotly.newPlot('graph_area', data, layout);
-                        document.getElementById("alg_seek").innerHTML = "Seek: "+seek;
+                        document.getElementById("alg_seek").innerHTML = "Total head movement : "+seek;
                         document.getElementById("alg_name").innerHTML = "SSTF";
                         }
                 }
@@ -187,7 +187,7 @@ var pre,v1,v2,v3,v4,v5,v6,dir;
                                 v3=seek;
                                 if(pre){
                                 // Plotly.newPlot('graph_area', data, layout);
-                                document.getElementById("alg_seek").innerHTML = "Seek: "+seek;
+                                document.getElementById("alg_seek").innerHTML ="Total head movement : "+seek;
                                 document.getElementById("alg_name").innerHTML = "SCAN";
                                 }
                                 return;
@@ -275,7 +275,7 @@ var pre,v1,v2,v3,v4,v5,v6,dir;
                         var data = [trace1];
                         v3=seek;
                         if(pre){Plotly.newPlot('graph_area', data, layout);
-                        document.getElementById("alg_seek").innerHTML = "Seek: "+seek;
+                        document.getElementById("alg_seek").innerHTML = "Total head movement : "+seek;
                         document.getElementById("alg_name").innerHTML = "SCAN";
                         }
                 }
@@ -302,7 +302,7 @@ var pre,v1,v2,v3,v4,v5,v6,dir;
                                 v4=seek;
                                 if(pre){
                                 // Plotly.newPlot('graph_area', data, layout);
-                                document.getElementById("alg_seek").innerHTML = "Seek: "+seek;
+                                document.getElementById("alg_seek").innerHTML ="Total head movement : "+seek;
                                 document.getElementById("alg_name").innerHTML = "C-SCAN";
                                 }
                                 return;
@@ -418,7 +418,7 @@ var pre,v1,v2,v3,v4,v5,v6,dir;
                         var data = [trace1,trace2,trace3];
                         v4=seek;
                         if(pre){Plotly.newPlot('graph_area', data, layout);
-                        document.getElementById("alg_seek").innerHTML = "Seek: "+seek;
+                        document.getElementById("alg_seek").innerHTML = "Total head movement : "+seek;
                         document.getElementById("alg_name").innerHTML = "C-SCAN";
                         }
                 }
@@ -441,7 +441,7 @@ var pre,v1,v2,v3,v4,v5,v6,dir;
                                 v5=seek;
                                 if(pre){
                                 // Plotly.newPlot('graph_area', data, layout);
-                                document.getElementById("alg_seek").innerHTML = "Seek: "+seek;
+                                document.getElementById("alg_seek").innerHTML ="Total head movement : "+seek;
                                 document.getElementById("alg_name").innerHTML = "LOOK";
                                 }
                                 return;
@@ -518,7 +518,7 @@ var pre,v1,v2,v3,v4,v5,v6,dir;
                         var data = [trace1];
                         v5=seek;
                         if(pre){Plotly.newPlot('graph_area', data, layout);
-                        document.getElementById("alg_seek").innerHTML = "Seek: "+seek;
+                        document.getElementById("alg_seek").innerHTML = "Total head movement : "+seek;
                         document.getElementById("alg_name").innerHTML = "LOOK";
                         }
                 }
@@ -545,7 +545,7 @@ var pre,v1,v2,v3,v4,v5,v6,dir;
                                 v6=seek;
                                 if(pre){
                                 // Plotly.newPlot('graph_area', data, layout);
-                                document.getElementById("alg_seek").innerHTML = "Seek: "+seek;
+                                document.getElementById("alg_seek").innerHTML ="Total head movement : "+seek;
                                 document.getElementById("alg_name").innerHTML = "C-LOOK";
                                 }
                                 return;
@@ -656,14 +656,14 @@ var pre,v1,v2,v3,v4,v5,v6,dir;
                         var data = [trace1,trace2,trace3];
                         v6=seek;
                         if(pre){Plotly.newPlot('graph_area', data, layout);
-                        document.getElementById("alg_seek").innerHTML = "Seek: "+seek;
+                        document.getElementById("alg_seek").innerHTML ="Total head movement : "+seek;
                         document.getElementById("alg_name").innerHTML = "C-LOOK";
                         }
                 }
                 function compare(){
                         var avg=(v1+v2+v3+v4+v5+v6)/6.0;
                         console.log(avg);
-                        document.getElementById("alg_seek").innerHTML = "Mean: "+avg;
+                        document.getElementById("alg_seek").innerHTML = "Mean of the total head movements: "+avg;
                         document.getElementById("alg_name").innerHTML = "Comparision";
                         var trace1 = {
                         x: ['FCFS', 'SSTF', 'SCAN', 'C-SCAN', 'LOOK', 'C-LOOK'],
