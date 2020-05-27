@@ -41,11 +41,10 @@
         <br>
         <div class="container">
                 <div class="jumbotron">
-                    <h1 class="display-3">Banker's Safety Algorithm</h1>
-                    <p class="lead">Detection algorithm to avoid deadlock</p>
+                    <h1 class="display-3">Banker's Algorithm</h1>
+                    <p class="lead">Deadlock Avoidance Method</p>
                     <hr class="my-4">
-                    <p>Banker's Algorithm is a resource allocation and deadlock avoidance algorithm that tests for safety by simulating the allocation of predetermined maximum possible amounts of all resources, and then makes an "safe-state" check to test for possible deadlock conditions for all other pending activities, before deciding whether allocation should be allowed to continue.</p>
-                   
+                    <p>Each time a process enters the system, as part of the <em>Resource-Request Algorithm</em>, we pretend to allocate requested resources to the process by modifying the state and then run the <em>Safety Algorithm</em>. If resulting state is safe, the resources are allocated to the process. Otherwise, the process must wait and the old resource-allocation state is restored, thereby avoiding deadlock. Here, the safety algorithm is simulated. We determine if a <em>safe state</em> is possible for the given input.</p>
                 </div>
 				<div class="panel-body">
 					<form name = "resource">
