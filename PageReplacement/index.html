@@ -7,9 +7,9 @@
         <link rel="stylesheet" type="text/css" href="../Index/css/bootswatch.css" />
     </head>
     <body>
-            <!-- Navigation Bar -->
+            
             <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-            <a class="navbar-brand" href="../Index/index.html#firstPage">Operationg System Simulator</a>
+            <a class="navbar-brand" href="../Index/index.html#firstPage">OS Simulator</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -41,9 +41,8 @@
         <div class="container">
             <div class="jumbotron">
                 <h1 class="display-3">Page Replacement Algorithms</h1>
-                <p class="lead">In an Operating System that uses paging for memory management , a Page Replacement algorithm is needed to decide which page should be replaced when new page comes in.</p>
-                <hr class="my-4">
-                
+                <p class="lead">Page replacement is a process of swapping out an existing page from the frame of a main memory and replacing it with a new page. It is required when all the frames of main memory (or the ones alloted for the process) are already occupied. Thus, a page has to be replaced to create a room for the required page.</p>
+                <hr class="my-4">        
                 <p class="lead">
                   <a class="btn btn-success" href="src/demo.html" role="button">DEMO</a>
                 </p>
@@ -54,7 +53,7 @@
                   <div class="card-header">FIFO</div>
                   <div class="card-body">
                     <h4 class="card-title">First In First Out</h4>
-                    <p class="card-text">In this algorithm, operating system keeps track of all pages in the memory in a queue, oldest page is in the front of the queue. When a page needs to be replaced page in the front of the queue is selected for removal.</p>
+                    <p class="card-text">In this algorithm,the OS keeps track of all pages in the memory in a queue, with the oldest page in the front of the queue. When a page needs to be replaced, the page at the front of the queue is selected for removal.</p>
                   </div>
                 </div>
               </div>
@@ -63,7 +62,7 @@
                   <div class="card-header">LRU</div>
                   <div class="card-body">
                     <h4 class="card-title">Least Recently Used</h4>
-                    <p class="card-text">This algorithm replaces the page which has not been referred for a long time.</p>
+                    <p class="card-text">This algorithm replaces the page which has not been referred for the longest time.</p>
                   </div>
                 </div>
               </div>
@@ -72,22 +71,9 @@
                   <div class="card-header">Optimal</div>
                   <div class="card-body">
                     <h4 class="card-title">Optimal</h4>
-                    <p class="card-text">this algorithms replaces the page which will not be referred for so long in future. Although it can not be practically implementable but it can be used as a benchmark</p>
+                    <p class="card-text">This algorithm replaces the page which will not be referred for the longest in future. It exists only in theory and is used as a benchmark</p>
                   </div>
                 </div>
               </div>
           </div>
-
-
-        <!-- <ul style="list-style-type:none;">
-          <li>
-            <a href="src/fifo.html"> First In First Out </a>
-          </li>
-          <li>
-            <a href="src/lru.html"> Least Recently Used </a>
-          </li>
-          <li>
-            <a href="src/optimal.html"> Optimal </a>
-          </li>
-        </ul> -->
 </body>
