@@ -26,7 +26,7 @@ function fifo() {
     pages[i] = parseInt(pages[i]);
 
   var j = 0 ;
-
+  document.write("Here is how the frames are going to be filled. NOTE: -1 represents an unallocated frame <br><br>");
   for(var i = 0 ; i < no_of_pages; i++) {
     avail = 0;
 
@@ -43,7 +43,7 @@ function fifo() {
 
     document.write(frames + "<br>");
   }
-    document.write("Page faults = " + count);
+    document.write("<br>Page faults = " + count);
 
   return 0;
 }
@@ -67,7 +67,7 @@ function lru() {
 
   for(var i = 0 ; i < no_of_pages; i++)
     pages[i] = parseInt(pages[i]);
-
+  document.write("Here is how the frames are going to be filled. NOTE: -1 represents an unallocated frame <br><br>");
   for(var i = 0; i < no_of_pages; i++) {
     flag1 = flag2 = 0;
 
@@ -111,7 +111,7 @@ function lru() {
   }
     document.write(frames + "<br>");
 }
-    document.write("Page faults = " + faults);
+    document.write("<br>Page faults = " + faults);
 
   return 0;
 }
@@ -135,7 +135,7 @@ function optimal() {
 
   for(var i = 0 ; i < no_of_pages; i++)
     pages[i] = parseInt(pages[i]);
-
+  document.write("Here is how the frames are going to be filled. NOTE: -1 represents an unallocated frame <br><br>");
   for(var i = 0 ; i < no_of_pages; i++) {
     flag1 = flag2 = 0;
 
@@ -200,5 +200,5 @@ function optimal() {
 
   }
 
-  document.write("Page faults = " + faults);
+  document.write("<br>Page faults = " + faults);
 }
