@@ -31,12 +31,13 @@ caption,th {
     text-align: left;
 
 }
+
 h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
     font-size: 100%;
     margin:0;
     padding:0;
-    color:rgb(255, 255, 255);
+    color:black;
 }
 q:before,q:after {
     content:'';
@@ -48,7 +49,7 @@ abbr,acronym { border: 0;
 /* Custom CSS
  * --------------------------------------- */
 body{
-	font-family: arial,helvetica;
+	font-family: "Times New Roman", Times, serif;
 	color: #333;
 	color: rgba(0,0,0,0.5);
 }
@@ -69,11 +70,11 @@ a {
     text-decoration: none;
 }
 
-a:hover 
+a:hover
 {
-     color:#293F53; 
-     text-decoration:none; 
-     cursor:pointer;  
+     color:#293F53;
+     text-decoration:none;
+     cursor:pointer;
 }
 .intro p{
 	width: 50%;
@@ -228,4 +229,3 @@ a:hover
 	right: 149px;
 	top: 9px;
 }
-
